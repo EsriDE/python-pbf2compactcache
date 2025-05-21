@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='en-DE'>
+<name>Template</name>
+<guid>B7035C69-DC2D-4BA0-B5A4-3656B8C3AA66</guid>
+<version>1.0</version>
+<created></created>
+<modified></modified>
+<catalogpath></catalogpath>
+<snippet>Basemap.de</snippet>
+<description>&lt;DIV STYLE=&quot;text-align:Left;font-size:12pt&quot;&gt;&lt;P&gt;&lt;SPAN&gt;Basemap.de&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;</description>
+<summary>Basemap.de</summary>
+<title>Map</title>
+<tags>Basemap.de</tags>
+<type>Vector Tile Package</type>
+<typekeywords>
+<typekeyword>Data</typekeyword>
+<typekeyword>Vector Tile Package</typekeyword>
+<typekeyword>vtpk</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<extent>
+<xmin>8.10449700000004</xmin>
+<ymin>53.395004</ymin>
+<xmax>10.325278</xmax>
+<ymax>54.0276490000001</ymax>
+</extent>
+<spatialreference>WGS_1984_Web_Mercator_Auxiliary_Sphere</spatialreference>
+<minScale>295828763.7957775</minScale>
+<maxScale>564.24858800000004</maxScale>
+<datalastModifiedTime></datalastModifiedTime>
+<accessinformation></accessinformation>
+<licenseinfo></licenseinfo>
+</ESRI_ItemInformation>
