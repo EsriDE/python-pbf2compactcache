@@ -13,11 +13,11 @@ This Python script takes two arguments, the input {x}/{y}/{z}.pbf folder and the
 The script does not check the input tile format, and assumes that all the files under the source contain valid pbf files. 
 The algorithm loops over files, inserting each tile in the appropriate bundle. It keeps one bundle open in case the next tile fits in the same bundle.  In most cases this combination results in good performance.
 
-The [sample_pbf](./sample_pbf) folder contains example [pbfs](./sample_pbf/README.md) for the first seven levels of the Federal Agency for Cartography and Geodesy & Working Committee of the Surveying Authorities of the Laender of the Federal Republic of Germany (AdV) - Basemap.de vector cache in Web Mercator projection.  The [sample_cache] (../sample_cache) folder contains a Compact Cache V2 cache produced from these individual pbfs using the pbf2compactcache.py script. The commands used to generate the bundles for each level are:
+The [sample_pbf](./sample_pbf) folder contains example [pbfs](./sample_pbf/README.md) for the first seven levels of the Federal Agency for Cartography and Geodesy & Working Committee of the Surveying Authorities of the Laender of the Federal Republic of Germany (AdV) - Basemap.de vector cache in Web Mercator projection.  The [sample_cache](./sample_cache) folder contains a Compact Cache V2 cache produced from these individual pbfs using the pbf2compactcache.py script. The commands used to generate the bundles for each level are:
 
 processing:
 ```console
-python sample_code\pbf2compactcache.py -s sample_pbf -d sample_cache\p12\tile
+python sample_code\pbf2compactcache.py -s sample_pbf -d sample_cache\p12\tile -l 7
 ```
 
 
